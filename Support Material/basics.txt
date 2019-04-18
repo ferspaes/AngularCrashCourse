@@ -1,0 +1,7 @@
+npm i @angular/cli -g
+
+ng new myproj1
+
+ng generate component community/communityHelper
+
+ng g c myComponent
