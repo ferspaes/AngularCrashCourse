@@ -12,22 +12,9 @@
   </div>
 </nav>
 <main>
-  <table class="table container">
-    <thead>
-      <tr>
-        <th scope="col">Date</th>
-        <th scope="col">Weight</th>
-        <th scope="col">Body Fat %</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>{{ entriesSvc.sortedEntries[0].date | date }}</td>
-        <td>{{ entriesSvc.sortedEntries[0].weight }} lbs</td>
-        <td>{{ entriesSvc.sortedEntries[0].bodyfat | percent }}</td>
-      </tr>
-    </tbody>
-  </table>
+  
+  <hm-home></hm-home>
+
 </main>
 
 

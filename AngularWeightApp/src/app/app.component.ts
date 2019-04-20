@@ -1,6 +1,4 @@
 import { Component } from '@angular/core';
-import { WeightEntriesService } from './weight-entries.services';
-
 
 @Component({
   selector: 'hm-root',
@@ -9,10 +7,8 @@ import { WeightEntriesService } from './weight-entries.services';
 })
 export class AppComponent {
   
-  
-  constructor(public entriesSvc: WeightEntriesService) {}
+  constructor() {}
 
   ngOnInit() {
   }
-  
 }
