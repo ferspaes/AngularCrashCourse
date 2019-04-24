@@ -4,4 +4,6 @@ ng new myproj1
 
 ng generate component community/communityHelper
 
-ng g c myComponent
+ng g c myComponent --spec false
+
+ng g s myService --spec false
